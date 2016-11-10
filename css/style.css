@@ -1,0 +1,125 @@
+html, body {
+	padding: 0;
+	width: 100%;
+	height: 100%; 
+}
+
+.content {
+  margin:10px;
+  margin-top:17px;
+	min-height: 100%;
+	position: relative;
+	z-index: 0; 
+}
+
+.background {
+	position: absolute;
+	z-index: -1; 
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.top_block {
+	width: 100%;
+	display: block; 
+  
+}
+
+.bottom_block {
+	position: absolute;
+	width: 100%;
+	display: block;
+	bottom: 0; 
+}
+
+.left_block {
+	display: block;
+	float: left; 
+}
+
+.right_block {
+	display: block;
+	float: right; 
+  border-left: solid #008080;;
+}
+
+.center_block {
+	display: block;
+	width: auto; 
+}
+
+.background.left {
+	height: 100%;
+	padding-bottom: 0;
+	left: 0;
+	width: 40%;
+  
+}
+
+.left {
+	height: auto;
+	width: 49%;float:left;
+	padding-bottom: 0px;
+  
+}
+
+.title {
+	width: 100%;
+	height: 76px;
+}
+
+.info {
+	width: 100%;
+	height: 216px;
+}
+
+.education {
+	width: 100%;
+	height: 224px;
+}
+
+.skills {
+	width: 100%;
+	height: 243px;  
+}
+
+.background.right {
+	height: auto !important;
+	padding-bottom: 0;
+	right: 0;
+	width: 100%; float: right;
+}
+
+.right {
+	height: auto;
+	padding-bottom: 0px;
+  width:60%;
+}
+
+.workExp {
+	width: 100%;
+	height: 420px;
+  
+}
+
+.projects {
+	width: 100%;
+	height: 429px;
+}
+
+*{
+  margin: 3px 3px 3px 3px;
+}
+
+.teal{
+  color:#008080;
+}
+
+.gray{
+  color:#A9A9A9;
+}
+
+
+  hr { background-color: #008080; height: 2px; border: 0; }
